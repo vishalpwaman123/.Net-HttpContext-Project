@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "HttpContext.Practice.API.Controllers.AuthController",
+    "Method": "Get",
+    "RelativePath": "api/Auth/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HttpContext.Practice.API.Controllers.AuthController",
+    "Method": "GetTokenDetail",
+    "RelativePath": "api/Auth/GetTokenDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KQuVzTtCpwMR+yIp2Y5KgF4coL+V9mkweuSriV14mTQ=",
+  "Source": "HttpContext.Practice.API",
+  "BasePath": "_content/HttpContext.Practice.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
