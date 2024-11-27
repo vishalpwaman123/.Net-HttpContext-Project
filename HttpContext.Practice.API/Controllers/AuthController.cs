@@ -19,7 +19,7 @@ namespace HttpContext.Practice.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> GetToken()
         {
             string userToken = GenerateToken("USER1", "vishal.waman@parallel-minds.com", "ADMIN");
             return Ok(userToken);
@@ -29,7 +29,8 @@ namespace HttpContext.Practice.API.Controllers
         [Authorize]
         public async Task<IActionResult> GetTokenDetail()
         {
-           return Ok("Hello Vishal Waman");
+            string ? Name = HttpContext.User.Identity?.Name;
+            return Ok(Name);
         }
 
         private string GenerateToken(string userId, string userEmail, string userRole)
@@ -50,6 +51,7 @@ namespace HttpContext.Practice.API.Controllers
             new Claim(JwtRegisteredClaimNames.Sub, userId),
             new Claim(JwtRegisteredClaimNames.Email, userEmail),
             new Claim(ClaimTypes.Role, userRole),
+            new Claim(ClaimTypes.Name, "VISHAL_WAMAN"),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 

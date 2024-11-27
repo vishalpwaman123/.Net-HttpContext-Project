@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\HttpContext.Practice.API.props" />
-</Project>

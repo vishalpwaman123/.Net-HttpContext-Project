@@ -6,7 +6,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Auth/Get": {
+    "/api/Auth/GetToken": {
       "get": {
         "tags": [
           "Auth"

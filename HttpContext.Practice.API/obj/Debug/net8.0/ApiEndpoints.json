@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "HttpContext.Practice.API.Controllers.AuthController",
-    "Method": "Get",
-    "RelativePath": "api/Auth/Get",
+    "Method": "GetToken",
+    "RelativePath": "api/Auth/GetToken",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

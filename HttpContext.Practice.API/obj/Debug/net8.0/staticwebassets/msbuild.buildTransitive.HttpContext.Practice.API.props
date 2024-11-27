@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\HttpContext.Practice.API.props" />
-</Project>
